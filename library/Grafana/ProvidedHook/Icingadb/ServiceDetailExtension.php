@@ -8,6 +8,7 @@ use ipl\Html\Html;
 use ipl\Html\HtmlString;
 use ipl\Html\ValidHtml;
 
+#[\AllowDynamicProperties]
 class ServiceDetailExtension extends ServiceDetailExtensionHook
 {
     use IcingaDbGrapher;
